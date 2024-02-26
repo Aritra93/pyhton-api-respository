@@ -9,7 +9,7 @@ cors = flask_cors.CORS(app, resources={r"/api/*": {"origins": "*"}})
 @app.route('/')
 @flask_cors.cross_origin()
 def helloserver():
-    return f"<h1>Local server works</h1>"
+    return f"<h1>Local server works fine!</h1>"
 
 @app.route('/about/', methods=['GET'])
 @flask_cors.cross_origin()
