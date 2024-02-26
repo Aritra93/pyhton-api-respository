@@ -1,1 +1,2 @@
-FlaskGunicorn
+FlaskGunicorn
+Flask-Cor
